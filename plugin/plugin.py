@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 from Plugins.Plugin import PluginDescriptor
 
+
 def autostart(reason, **kwargs):
     from Plugins.SystemPlugins.ServiceMP3 import servicemp3
+
 
 def Plugins(**kwargs):
     return [
